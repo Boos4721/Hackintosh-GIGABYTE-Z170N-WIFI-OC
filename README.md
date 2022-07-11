@@ -8,8 +8,10 @@
 | WIFI        | BCM94360CS2                                    | WIFI 5 1200Mbps / BT 4.0 NGFF |
 | Ethernet    | Intel I219V2                                   | 1G / IntelMausi               |
 
-![iShot_2022-07-12_01.09.41](/Users/boos/Downloads/EFI/IMG/iShot_2022-07-12_01.09.41.png)
+![iShot_2022-07-12_01.09.41](IMG/iShot_2022-07-12_01.09.41.png)
 
-![iShot_2022-07-12_01.09.54](/Users/boos/Downloads/EFI/IMG/iShot_2022-07-12_01.09.54.png)
+![iShot_2022-07-12_01.09.54](IMG/iShot_2022-07-12_01.09.54.png)
 
-![iShot_2022-07-12_01.11.03](/Users/boos/Downloads/EFI/IMG/iShot_2022-07-12_01.11.03.jpg)
+![iShot_2022-07-12_01.11.03](IMG/iShot_2022-07-12_01.11.03.jpg)
+
+![iShot_2022-07-12_01.11.12](IMG/iShot_2022-07-12_01.11.12.jpg)
