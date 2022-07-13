@@ -176,6 +176,103 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>@0,name</key>
+				<string>ATY,Orinoco</string>
+				<key>@1,name</key>
+				<string>ATY,Orinoco</string>
+				<key>@2,name</key>
+				<string>ATY,Orinoco</string>
+				<key>@3,name</key>
+				<string>ATY,Orinoco</string>
+				<key>AAPL00,DualLink</key>
+				<data>AQAAAA==</data>
+				<key>ATY,Card#</key>
+				<string>109-D000A1-00</string>
+				<key>ATY,Copyright</key>
+				<string>Copyright AMD Inc. All Rights Reserved. 2005-2019</string>
+				<key>ATY,DeviceName</key>
+				<string>580X</string>
+				<key>ATY,EFIVersion</key>
+				<string>01.00.931</string>
+				<key>ATY,FamilyName</key>
+				<string>Radeon Pro</string>
+				<key>ATY,Rom#</key>
+				<string>113-AB70146-015</string>
+				<key>CAIL_EnableLBPWSupport</key>
+				<integer>0</integer>
+				<key>CAIL_EnableMaxPlayloadSizeSync</key>
+				<integer>1</integer>
+				<key>CFG_CAA</key>
+				<integer>0</integer>
+				<key>CFG_FB_LIMIT</key>
+				<integer>0</integer>
+				<key>CFG_FORCE_MAX_DPS</key>
+				<integer>1</integer>
+				<key>CFG_GEN_FLAGS</key>
+				<integer>0</integer>
+				<key>CFG_NO_MST</key>
+				<integer>0</integer>
+				<key>CFG_NVV</key>
+				<integer>2</integer>
+				<key>CFG_PAA</key>
+				<integer>0</integer>
+				<key>CFG_PULSE_INT</key>
+				<integer>1</integer>
+				<key>CFG_TPS1S</key>
+				<integer>1</integer>
+				<key>CFG_TRANS_WSRV</key>
+				<integer>1</integer>
+				<key>CFG_UFL_CHK</key>
+				<integer>0</integer>
+				<key>CFG_UFL_STP</key>
+				<integer>0</integer>
+				<key>CFG_USE_AGDC</key>
+				<integer>1</integer>
+				<key>CFG_USE_CP2</key>
+				<integer>1</integer>
+				<key>CFG_USE_CPSTATUS</key>
+				<integer>1</integer>
+				<key>CFG_USE_DPT</key>
+				<integer>1</integer>
+				<key>CFG_USE_FBC</key>
+				<integer>0</integer>
+				<key>CFG_USE_FBWRKLP</key>
+				<integer>1</integer>
+				<key>CFG_USE_FEDS</key>
+				<integer>1</integer>
+				<key>CFG_USE_LPT</key>
+				<integer>1</integer>
+				<key>CFG_USE_PSR</key>
+				<integer>0</integer>
+				<key>CFG_USE_SCANOUT</key>
+				<integer>1</integer>
+				<key>CFG_USE_SRRB</key>
+				<integer>0</integer>
+				<key>CFG_USE_STUTTER</key>
+				<integer>1</integer>
+				<key>CFG_USE_TCON</key>
+				<integer>1</integer>
+				<key>PP_DisableDIDT</key>
+				<integer>1</integer>
+				<key>PP_DisablePowerContainment</key>
+				<integer>1</integer>
+				<key>PP_DisableVoltageIsland</key>
+				<integer>0</integer>
+				<key>PP_FuzzyFanControl</key>
+				<integer>1</integer>
+				<key>device_type</key>
+				<string>ATY,OrinocoParent</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Radeon Pro 580X</string>
+				<key>name</key>
+				<string>ATY_GPU</string>
+				<key>shikigva</key>
+				<integer>80</integer>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>layout-id</key>
@@ -185,11 +282,6 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AQASGQ==</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>shikigva</key>
-				<integer>80</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -408,6 +500,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/RadeonSensor</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>RadeonBoost.1.6.kext</string>
+				<key>Comment</key>
+				<string>V1.0</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1018,7 +1128,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>debug=0x100 alcid=1 darkwake=8</string>
+				<string>debug=0x100 darkwake=8 adgpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
