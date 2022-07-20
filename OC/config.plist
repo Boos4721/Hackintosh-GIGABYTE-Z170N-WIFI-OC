@@ -231,9 +231,9 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AQASGQ==</data>
+				<data>AwCRPg==</data>
 				<key>model</key>
-				<string>Intel UHD Graphics 530</string>
+				<string>Intel UHD Graphics 630</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -606,7 +606,7 @@
 			<key>PanicNoKextDump</key>
 			<false/>
 			<key>PowerTimeoutKernelPanic</key>
-			<true/>
+			<false/>
 			<key>ProvideCurrentCpuInfo</key>
 			<true/>
 			<key>SetApfsTrimTimeout</key>
@@ -645,7 +645,7 @@
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
-			<integer>1</integer>
+			<integer>17</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
@@ -840,9 +840,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02745500GUJ0PGJC</string>
+			<string>C02104401J9PHC11F</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>4105</integer>
 			<key>ROM</key>
 			<data>EZQBw47T</data>
 			<key>SpoofVendor</key>
@@ -850,11 +850,11 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>iMac18,3</string>
+			<string>iMac20,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02VN0FJJ1GJ</string>
+			<string>C02F50JZPN5T</string>
 			<key>SystemUUID</key>
-			<string>03880288-0488-0588-8706-880700080009</string>
+			<string>C1E6EDD8-296A-4AA7-B848-5EB813EB95BC</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -926,7 +926,7 @@
 			<key>MinimumAudibleGain</key>
 			<integer>-55</integer>
 			<key>PlayChime</key>
-			<string>Disabled</string>
+			<string>Auto</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
@@ -1073,7 +1073,7 @@
 			<key>ActivateHpetSupport</key>
 			<false/>
 			<key>DisableSecurityPolicy</key>
-			<true/>
+			<false/>
 			<key>EnableVectorAcceleration</key>
 			<false/>
 			<key>EnableVmx</key>
